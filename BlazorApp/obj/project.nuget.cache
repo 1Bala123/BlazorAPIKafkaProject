@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "X7G6EiRUCoo=",
   "success": true,
   "projectFilePath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
+=======
+  "dgSpecHash": "TalSZLV30Hw=",
+  "success": true,
+  "projectFilePath": "/home/bala/BlazorApp1/BlazorApp/BlazorApp.csproj",
+>>>>>>> ad1a258 (Initial commit -ASP .NET Project Blazor cum Web API)
   "expectedPackageFiles": [
     "/home/bala/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

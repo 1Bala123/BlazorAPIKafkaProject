@@ -1,0 +1,593 @@
+2026-05-03 20:36:04.809 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 20:36:07.031 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 20:36:07.174 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 20:36:07.225 +05:30 [INF] Hosting environment: Development
+2026-05-03 20:36:07.235 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 20:36:28.850 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/ - null null
+2026-05-03 20:36:29.271 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 20:36:29.277 +05:30 [INF] HTTP GET / responded 404 in 57.5322 ms
+2026-05-03 20:36:29.296 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/ - 404 0 null 451.7888ms
+2026-05-03 20:36:29.327 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5240/, Response status code: 404
+2026-05-03 20:36:34.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - null null
+2026-05-03 20:36:35.165 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 490.1906 ms
+2026-05-03 20:36:35.168 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - 200 null text/html;charset=utf-8 531.4352ms
+2026-05-03 20:36:36.656 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - null null
+2026-05-03 20:36:37.174 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 477.6872 ms
+2026-05-03 20:36:37.181 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 525.1136ms
+2026-05-03 20:36:46.989 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - null 0
+2026-05-03 20:36:47.006 +05:30 [INF] CORS policy execution failed.
+2026-05-03 20:36:47.039 +05:30 [INF] Request origin http://localhost:5240 does not have permission to access the resource.
+2026-05-03 20:36:47.044 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:36:47.284 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 20:36:48.478 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 20:36:48.827 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 20:36:48.852 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 20:36:48.953 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 1590.5051ms
+2026-05-03 20:36:48.968 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:36:48.972 +05:30 [INF] HTTP POST /api/Products/GenerateAPIValidationToken responded 200 in 1970.3381 ms
+2026-05-03 20:36:49.001 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 2011.479ms
+2026-05-03 20:37:10.419 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - null 0
+2026-05-03 20:37:10.426 +05:30 [INF] CORS policy execution failed.
+2026-05-03 20:37:10.427 +05:30 [INF] Request origin http://localhost:5240 does not have permission to access the resource.
+2026-05-03 20:37:10.428 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:37:10.430 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 20:37:10.586 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 20:37:10.591 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 20:37:10.594 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 20:37:10.601 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 153.1195ms
+2026-05-03 20:37:10.603 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:37:10.605 +05:30 [INF] HTTP POST /api/Products/GenerateAPIValidationToken responded 200 in 180.5852 ms
+2026-05-03 20:37:10.613 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 192.8778ms
+2026-05-03 20:37:47.098 +05:30 [INF] Application is shutting down...
+2026-05-03 20:38:12.696 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 20:38:13.760 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 20:38:13.780 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 20:38:13.786 +05:30 [INF] Hosting environment: Development
+2026-05-03 20:38:13.790 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 20:38:18.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - null null
+2026-05-03 20:38:19.920 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 270.7614 ms
+2026-05-03 20:38:19.941 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - 200 null text/html;charset=utf-8 946.6072ms
+2026-05-03 20:38:20.249 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - null null
+2026-05-03 20:38:20.677 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 397.1225 ms
+2026-05-03 20:38:20.680 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 432.4572ms
+2026-05-03 20:38:30.256 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - null 0
+2026-05-03 20:38:30.296 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 20:38:30.301 +05:30 [INF] CORS policy execution failed.
+2026-05-03 20:38:30.304 +05:30 [INF] Request origin http://localhost:5240 does not have permission to access the resource.
+2026-05-03 20:38:30.313 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:38:30.392 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 20:38:30.965 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 20:46:08.888 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 20:46:10.176 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 20:46:10.186 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 20:46:10.195 +05:30 [INF] Hosting environment: Development
+2026-05-03 20:46:10.198 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 20:46:52.150 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - null null
+2026-05-03 20:46:53.218 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 315.1857 ms
+2026-05-03 20:46:53.241 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - 200 null text/html;charset=utf-8 1098.1939ms
+2026-05-03 20:46:54.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - null null
+2026-05-03 20:46:54.915 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 501.4396 ms
+2026-05-03 20:46:54.918 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 515.1271ms
+2026-05-03 20:47:00.129 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - null 0
+2026-05-03 20:47:00.161 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 20:47:00.166 +05:30 [INF] CORS policy execution failed.
+2026-05-03 20:47:00.167 +05:30 [INF] Request origin http://localhost:5240 does not have permission to access the resource.
+2026-05-03 20:47:00.180 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:47:00.258 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 20:47:00.930 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 20:47:59.151 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 20:47:59.200 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 20:47:59.307 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 59033.2747ms
+2026-05-03 20:47:59.309 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 20:47:59.310 +05:30 [INF] HTTP POST /api/Products/GenerateAPIValidationToken responded 200 in 59164.9109 ms
+2026-05-03 20:47:59.318 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/Products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 59188.8932ms
+2026-05-03 21:10:42.177 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:10:44.177 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:10:44.199 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:10:44.204 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:10:44.211 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:11:22.419 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:11:23.956 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:11:23.978 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:11:23.991 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:11:23.995 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:11:39.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:11:39.830 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 21:11:39.852 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:11:40.034 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:11:45.363 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:11:45.739 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:11:45.948 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 5876.7369ms
+2026-05-03 21:11:45.971 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:11:46.010 +05:30 [INF] HTTP GET /api/products responded 200 in 6288.2607 ms
+2026-05-03 21:11:46.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 7058.7734ms
+2026-05-03 21:12:55.705 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:12:55.831 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:12:55.837 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:12:57.037 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:12:57.049 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:12:57.098 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 1242.0947ms
+2026-05-03 21:12:57.103 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:12:57.105 +05:30 [INF] HTTP GET /api/products responded 200 in 1335.3051 ms
+2026-05-03 21:12:57.108 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1406.79ms
+2026-05-03 21:14:29.790 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:14:29.854 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:14:29.858 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:14:30.004 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:14:30.009 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:14:30.043 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 183.4408ms
+2026-05-03 21:14:30.044 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:14:30.044 +05:30 [INF] HTTP GET /api/products responded 200 in 197.6921 ms
+2026-05-03 21:14:30.044 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 253.9797ms
+2026-05-03 21:15:18.958 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products - application/json; charset=utf-8 null
+2026-05-03 21:15:18.971 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 21:15:19.117 +05:30 [INF] Route matched with {action = "Post", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(API.Models.Product) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:15:20.267 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[@p0='?' (Size = 5), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Name", "Price")
+VALUES (@p0, @p1)
+RETURNING "ID";
+2026-05-03 21:15:20.357 +05:30 [INF] Executing OkObjectResult, writing value of type 'API.Models.Product'.
+2026-05-03 21:15:20.358 +05:30 [INF] Executed action API.Controllers.ProductsController.Post (API) in 1240.6927ms
+2026-05-03 21:15:20.360 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 21:15:20.360 +05:30 [INF] HTTP POST /api/products responded 200 in 1389.7964 ms
+2026-05-03 21:15:20.361 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1402.4027ms
+2026-05-03 21:17:48.439 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:17:48.447 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:17:48.739 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:17:48.742 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:17:48.807 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:17:48.809 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:17:49.463 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:17:49.489 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:17:49.521 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:17:49.521 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:17:49.543 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 706.4375ms
+2026-05-03 21:17:49.543 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:17:49.544 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 725.7724ms
+2026-05-03 21:17:49.544 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:17:49.545 +05:30 [INF] HTTP GET /api/products responded 200 in 914.1178 ms
+2026-05-03 21:17:49.546 +05:30 [INF] HTTP GET /api/products responded 200 in 915.7737 ms
+2026-05-03 21:17:49.550 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1187.2489ms
+2026-05-03 21:17:49.572 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1187.7671ms
+2026-05-03 21:17:55.822 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:17:55.896 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:17:55.906 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:17:55.943 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:17:56.074 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:17:56.088 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 180.7775ms
+2026-05-03 21:17:56.090 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:17:56.094 +05:30 [INF] HTTP GET /api/products responded 200 in 200.2774 ms
+2026-05-03 21:17:56.098 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 276.5548ms
+2026-05-03 21:17:59.963 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:18:02.110 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5240: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-05-03 21:19:02.297 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:19:06.396 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:19:06.448 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:19:06.487 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:19:06.500 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:23:15.793 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:23:18.255 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:23:18.275 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:23:18.280 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:23:18.286 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:23:27.093 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:23:29.555 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 21:23:29.651 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:23:30.254 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:23:38.837 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:23:39.430 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:23:39.773 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 9440.3105ms
+2026-05-03 21:23:39.782 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:23:39.813 +05:30 [INF] HTTP GET /api/products responded 200 in 10426.1922 ms
+2026-05-03 21:23:39.945 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 12897.0828ms
+2026-05-03 21:23:43.658 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:23:43.687 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:23:43.702 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:23:44.641 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:23:44.666 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:23:44.699 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 963.6945ms
+2026-05-03 21:23:44.702 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:23:44.714 +05:30 [INF] HTTP GET /api/products responded 200 in 1033.3649 ms
+2026-05-03 21:23:44.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1097.7925ms
+2026-05-03 21:23:55.793 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products - application/json; charset=utf-8 null
+2026-05-03 21:23:55.831 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 21:23:55.906 +05:30 [INF] Route matched with {action = "Post", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(API.Models.Product) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:23:56.824 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 6), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Name", "Price")
+VALUES (@p0, @p1)
+RETURNING "ID";
+2026-05-03 21:23:56.977 +05:30 [INF] Executing OkObjectResult, writing value of type 'API.Models.Product'.
+2026-05-03 21:23:56.993 +05:30 [INF] Executed action API.Controllers.ProductsController.Post (API) in 1079.0112ms
+2026-05-03 21:23:56.995 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 21:23:57.001 +05:30 [INF] HTTP POST /api/products responded 200 in 1178.8743 ms
+2026-05-03 21:23:57.011 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1217.8992ms
+2026-05-03 21:34:01.823 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:34:04.427 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:34:04.461 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:34:04.480 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:34:04.485 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:37:07.675 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:37:09.524 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:37:09.557 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:37:09.558 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:37:09.559 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:41:35.628 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:41:38.598 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:41:38.621 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:41:38.627 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:41:38.629 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:47:54.802 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:47:57.783 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:47:57.812 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:47:57.819 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:47:57.821 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:53:24.602 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 21:53:26.446 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 21:53:26.482 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 21:53:26.494 +05:30 [INF] Hosting environment: Development
+2026-05-03 21:53:26.500 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 21:53:41.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - null null
+2026-05-03 21:53:44.386 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 1507.5119 ms
+2026-05-03 21:53:44.472 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - 200 null text/html;charset=utf-8 2894.2445ms
+2026-05-03 21:53:48.937 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - null null
+2026-05-03 21:53:49.554 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:53:49.912 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 21:53:50.004 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:53:51.302 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:53:53.582 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4638.3781 ms
+2026-05-03 21:53:53.620 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4685.7744ms
+2026-05-03 21:53:55.561 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:54:32.482 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:54:32.601 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:54:32.838 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 41438.5055ms
+2026-05-03 21:54:32.854 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:54:32.866 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 43090.2919 ms
+2026-05-03 21:54:32.913 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 43358.5811ms
+2026-05-03 21:55:44.098 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:55:44.199 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:55:44.278 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:55:44.422 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:55:52.950 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:55:52.957 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:55:52.973 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 8691.705ms
+2026-05-03 21:55:52.979 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:55:52.980 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 8814.3866 ms
+2026-05-03 21:55:52.990 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 8892.2346ms
+2026-05-03 21:56:09.350 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:56:09.959 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:56:10.094 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:56:16.325 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:56:16.622 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:56:16.722 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 6625.616ms
+2026-05-03 21:56:16.821 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:56:16.953 +05:30 [INF] HTTP GET /api/products responded 200 in 7014.6808 ms
+2026-05-03 21:56:17.189 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 7838.5202ms
+2026-05-03 21:56:23.129 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:56:23.143 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:56:23.144 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:56:23.154 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:56:35.477 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:56:35.478 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:56:35.478 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 12331.6664ms
+2026-05-03 21:56:35.509 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:56:35.512 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 12370.1216 ms
+2026-05-03 21:56:35.544 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 12414.339ms
+2026-05-03 21:56:35.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:56:35.783 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:56:35.783 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:56:37.147 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:56:37.157 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:56:37.170 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 1378.6978ms
+2026-05-03 21:56:37.187 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:56:37.188 +05:30 [INF] HTTP GET /api/products responded 200 in 1405.5618 ms
+2026-05-03 21:56:37.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1491.4711ms
+2026-05-03 21:56:39.163 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:56:39.165 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:56:39.165 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:56:39.165 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:56:39.166 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:56:39.166 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:56:39.168 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 3.2243ms
+2026-05-03 21:56:39.170 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:56:39.172 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 7.6250 ms
+2026-05-03 21:56:39.177 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 13.8347ms
+2026-05-03 21:56:39.276 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 21:56:39.277 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:56:39.277 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:56:39.525 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 21:56:39.531 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 21:56:39.541 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 263.6756ms
+2026-05-03 21:56:39.548 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 21:56:39.551 +05:30 [INF] HTTP GET /api/products responded 200 in 274.1301 ms
+2026-05-03 21:56:39.553 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 277.7394ms
+2026-05-03 21:58:14.031 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:58:14.036 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:14.040 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:14.074 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:58:14.099 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:58:14.099 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:58:14.100 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 55.3093ms
+2026-05-03 21:58:14.100 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:14.100 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 64.3186 ms
+2026-05-03 21:58:14.100 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 69.7028ms
+2026-05-03 21:58:14.238 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products - application/json; charset=utf-8 null
+2026-05-03 21:58:14.248 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 21:58:14.415 +05:30 [INF] Route matched with {action = "Post", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(API.Models.Product) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:15.442 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 4), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Name", "Price")
+VALUES (@p0, @p1)
+RETURNING "ID";
+2026-05-03 21:58:15.513 +05:30 [INF] Executing OkObjectResult, writing value of type 'API.Models.Product'.
+2026-05-03 21:58:15.517 +05:30 [INF] Executed action API.Controllers.ProductsController.Post (API) in 1093.6777ms
+2026-05-03 21:58:15.517 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 21:58:15.518 +05:30 [INF] HTTP POST /api/products responded 200 in 1270.4910 ms
+2026-05-03 21:58:15.520 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products - 200 null application/json; charset=utf-8 1281.9271ms
+2026-05-03 21:58:28.354 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:58:28.355 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:28.355 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:28.356 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:58:28.356 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:58:28.357 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:58:28.357 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 1.2758ms
+2026-05-03 21:58:28.357 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:28.357 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 2.0570 ms
+2026-05-03 21:58:28.357 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 2.7489ms
+2026-05-03 21:58:28.510 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5240/api/products/10 - null null
+2026-05-03 21:58:28.531 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:28.597 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:28.939 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+WHERE "p"."ID" = @__p_0
+LIMIT 1
+2026-05-03 21:58:28.962 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "ID" = @p0
+RETURNING 1;
+2026-05-03 21:58:28.983 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-03 21:58:28.985 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 384.8951ms
+2026-05-03 21:58:28.988 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:28.990 +05:30 [INF] HTTP DELETE /api/products/10 responded 200 in 459.4281 ms
+2026-05-03 21:58:28.993 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5240/api/products/10 - 200 0 null 483.1031ms
+2026-05-03 21:58:30.068 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:58:30.069 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:30.071 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:30.072 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:58:30.073 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:58:30.074 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:58:30.076 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 4.2176ms
+2026-05-03 21:58:30.077 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:30.077 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 7.8900 ms
+2026-05-03 21:58:30.078 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 10.0284ms
+2026-05-03 21:58:30.219 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5240/api/products/9 - null null
+2026-05-03 21:58:30.220 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:30.220 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:30.247 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+WHERE "p"."ID" = @__p_0
+LIMIT 1
+2026-05-03 21:58:30.250 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "ID" = @p0
+RETURNING 1;
+2026-05-03 21:58:30.256 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-03 21:58:30.260 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 39.4081ms
+2026-05-03 21:58:30.262 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:30.264 +05:30 [INF] HTTP DELETE /api/products/9 responded 200 in 44.1784 ms
+2026-05-03 21:58:30.273 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5240/api/products/9 - 200 0 null 54.182ms
+2026-05-03 21:58:31.380 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:58:31.381 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:31.388 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:31.389 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:58:31.390 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:58:31.390 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:58:31.397 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 7.9295ms
+2026-05-03 21:58:31.399 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:31.401 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 20.6084 ms
+2026-05-03 21:58:31.405 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 24.5964ms
+2026-05-03 21:58:31.471 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5240/api/products/8 - null null
+2026-05-03 21:58:31.472 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:31.472 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:31.482 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+WHERE "p"."ID" = @__p_0
+LIMIT 1
+2026-05-03 21:58:31.487 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "ID" = @p0
+RETURNING 1;
+2026-05-03 21:58:31.502 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-03 21:58:31.507 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 34.1472ms
+2026-05-03 21:58:31.511 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:31.514 +05:30 [INF] HTTP DELETE /api/products/8 responded 200 in 42.3517 ms
+2026-05-03 21:58:31.517 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5240/api/products/8 - 200 0 null 45.3797ms
+2026-05-03 21:58:32.804 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 21:58:32.812 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:32.820 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:32.821 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 21:58:32.821 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 21:58:32.822 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 21:58:32.828 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 6.9841ms
+2026-05-03 21:58:32.828 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 21:58:32.834 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 22.8462 ms
+2026-05-03 21:58:32.839 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 33.6677ms
+2026-05-03 21:58:32.890 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5240/api/products/7 - null null
+2026-05-03 21:58:32.893 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:32.894 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-05-03 21:58:32.904 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+WHERE "p"."ID" = @__p_0
+LIMIT 1
+2026-05-03 21:58:32.912 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "ID" = @p0
+RETURNING 1;
+2026-05-03 21:58:32.922 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-03 21:58:32.924 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 30.0101ms
+2026-05-03 21:58:32.925 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-05-03 21:58:32.927 +05:30 [INF] HTTP DELETE /api/products/7 responded 200 in 34.3100 ms
+2026-05-03 21:58:32.932 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5240/api/products/7 - 200 0 null 41.9743ms
+2026-05-03 22:03:41.812 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 22:03:42.635 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 22:03:42.654 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 22:03:42.656 +05:30 [INF] Hosting environment: Development
+2026-05-03 22:03:42.658 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 22:03:50.837 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 22:03:51.718 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 22:03:51.735 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:03:51.987 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:03:52.653 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 22:03:52.738 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 22:03:52.763 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 22:03:52.870 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 841.3302ms
+2026-05-03 22:03:52.889 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:03:52.903 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1240.8844 ms
+2026-05-03 22:03:52.922 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 2088.1931ms
+2026-05-03 22:03:53.064 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 22:03:53.254 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:03:53.279 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:03:55.506 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 22:03:55.755 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 22:03:55.792 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 2510.3826ms
+2026-05-03 22:03:55.793 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:03:55.794 +05:30 [INF] HTTP GET /api/products responded 200 in 2549.9881 ms
+2026-05-03 22:03:55.813 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 2749.7143ms
+2026-05-03 22:03:57.965 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 22:03:57.977 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:03:57.983 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:03:58.010 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 22:03:58.014 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 22:03:58.016 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 22:03:58.018 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 14.5469ms
+2026-05-03 22:03:58.019 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:03:58.021 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 45.5893 ms
+2026-05-03 22:03:58.029 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 63.4283ms
+2026-05-03 22:03:58.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 22:03:58.069 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:03:58.071 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:03:58.358 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 22:03:58.362 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 22:03:58.366 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 288.5365ms
+2026-05-03 22:03:58.369 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:03:58.373 +05:30 [INF] HTTP GET /api/products responded 200 in 305.6030 ms
+2026-05-03 22:03:58.376 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 323.9737ms
+2026-05-03 22:04:07.569 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 22:04:07.570 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:04:07.570 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:04:07.571 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 22:04:07.572 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 22:04:07.575 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 22:04:07.582 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 11.8472ms
+2026-05-03 22:04:07.584 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:04:07.588 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 18.4288 ms
+2026-05-03 22:04:07.592 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 23.5626ms
+2026-05-03 22:04:07.630 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 22:04:07.637 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:04:07.639 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:04:07.715 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 22:04:07.716 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 22:04:07.717 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 73.742ms
+2026-05-03 22:04:07.718 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:04:07.721 +05:30 [INF] HTTP GET /api/products responded 200 in 84.5062 ms
+2026-05-03 22:04:07.745 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 115.0803ms
+2026-05-03 22:04:08.385 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - null 0
+2026-05-03 22:04:08.386 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:04:08.386 +05:30 [INF] Route matched with {action = "GenerateAPIValidationToken", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GenerateAPIValidationToken() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:04:08.387 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-05-03 22:04:08.387 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-05-03 22:04:08.388 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-03 22:04:08.388 +05:30 [INF] Executed action API.Controllers.ProductsController.GenerateAPIValidationToken (API) in 1.6914ms
+2026-05-03 22:04:08.388 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GenerateAPIValidationToken (API)'
+2026-05-03 22:04:08.392 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 6.3389 ms
+2026-05-03 22:04:08.393 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/products/GenerateAPIValidationToken - 200 null application/json; charset=utf-8 7.8307ms
+2026-05-03 22:04:08.428 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/products - null null
+2026-05-03 22:04:08.429 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:04:08.429 +05:30 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller API.Controllers.ProductsController (API).
+2026-05-03 22:04:08.431 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."ID", "p"."Name", "p"."Price"
+FROM "Products" AS "p"
+2026-05-03 22:04:08.434 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Models.Product, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-03 22:04:08.438 +05:30 [INF] Executed action API.Controllers.ProductsController.Get (API) in 8.4106ms
+2026-05-03 22:04:08.442 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Get (API)'
+2026-05-03 22:04:08.444 +05:30 [INF] HTTP GET /api/products responded 200 in 14.6175 ms
+2026-05-03 22:04:08.446 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/products - 200 null application/json; charset=utf-8 17.7207ms
+2026-05-03 22:05:23.236 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5240/api/Products - null null
+2026-05-03 22:05:23.245 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-03 22:05:23.259 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-05-03 22:05:23.262 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5240/api/Products - 401 0 null 25.6925ms
+2026-05-03 22:16:27.911 +05:30 [INF] User profile is available. Using '/home/bala/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-03 22:16:28.893 +05:30 [INF] Now listening on: http://localhost:5240
+2026-05-03 22:16:28.912 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-03 22:16:28.917 +05:30 [INF] Hosting environment: Development
+2026-05-03 22:16:28.933 +05:30 [INF] Content root path: /home/bala/BlazorApp1/API
+2026-05-03 22:18:48.181 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/Products - application/json 48
+2026-05-03 22:18:49.751 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-05-03 22:18:49.759 +05:30 [INF] CORS policy execution failed.
+2026-05-03 22:18:49.766 +05:30 [INF] Request origin http://localhost:5240 does not have permission to access the resource.
+2026-05-03 22:18:49.794 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 22:18:50.038 +05:30 [INF] Route matched with {action = "Post", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(API.Models.Product) on controller API.Controllers.ProductsController (API).
+2026-05-03 22:18:56.050 +05:30 [INF] Executed DbCommand (84ms) [Parameters=[@p0='?' (Size = 5), @p1='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Name", "Price")
+VALUES (@p0, @p1)
+RETURNING "ID";
+2026-05-03 22:18:57.020 +05:30 [INF] Executing OkObjectResult, writing value of type 'API.Models.Product'.
+2026-05-03 22:18:57.520 +05:30 [INF] Executed action API.Controllers.ProductsController.Post (API) in 7441.6712ms
+2026-05-03 22:18:57.549 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Post (API)'
+2026-05-03 22:18:57.597 +05:30 [INF] HTTP POST /api/Products responded 200 in 7953.7917 ms
+2026-05-03 22:18:57.878 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/Products - 200 null application/json; charset=utf-8 9696.0274ms

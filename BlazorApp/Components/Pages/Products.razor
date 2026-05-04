@@ -1,0 +1,168 @@
+@page "/Products"
+@rendermode InteractiveServer
+@inject TokenService TokenService
+@inject IHttpClientFactory ClientFactory
+@inject HttpClient client;
+@using System.Net.Http.Json
+
+<div class="container mt-4">
+
+    <h2 class="mb-4 text-primary">📦 Products Management</h2>
+
+    <!-- FORM CARD -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white">
+            <strong>@(product.ID == 0 ? "Add Product" : "Update Product")</strong>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+
+                <!-- Name -->
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Product Name</label>
+                    <input class="form-control"
+                           @bind="product.Name"
+                           placeholder="Enter product name" />
+                </div>
+
+                <!-- Price -->
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Price</label>
+                    <input class="form-control"
+                           type="number"
+                           @bind="product.Price"
+                           placeholder="Enter price" />
+                </div>
+
+            </div>
+
+            <button class="btn btn-success"
+                    type="button"
+                    @onclick="AddProducts">
+                @(product.ID == 0 ? "➕ Add Product" : "✏️ Update Product")
+            </button>
+
+            @if (product.ID != 0)
+            {
+                <button class="btn btn-secondary ms-2"
+                        type="button"
+                        @onclick="() => product = new Product()">
+                    Cancel
+                </button>
+            }
+        </div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-dark text-white">
+            <strong>Product List</strong>
+        </div>
+
+        <div class="card-body p-0">
+
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price ($)</th>
+                        <th width="200">Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var p in products)
+                    {
+                        <tr>
+                            <td>@p.ID</td>
+                            <td>@p.Name</td>
+                            <td>@p.Price</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary me-1"
+                                        type="button"
+                                        @onclick="() => EditProduct(p)">
+                                    Edit
+                                </button>
+
+                                <button class="btn btn-sm btn-danger"
+                                        type="button"
+                                        @onclick="() => DeleteProduct(p.ID)">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+@code {
+    List<Product> products = new();
+    Product product = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        client = ClientFactory.CreateClient("API");
+        await LoadProducts();
+    }
+
+    async Task LoadProducts()
+    {
+        products = await client.GetFromJsonAsync<List<Product>>("api/products") ?? new();
+    }
+
+    async Task AddProducts()
+    {
+        if (product.ID == 0)
+        {
+            var res = await client.PostAsJsonAsync("api/products", product);
+
+            if (res.IsSuccessStatusCode)
+            {
+                var created = await res.Content.ReadFromJsonAsync<Product>();
+                if (created != null)
+                    products.Add(created);
+            }
+        }
+        else
+        {
+            await client.PutAsJsonAsync($"api/products/{product.ID}", product);
+
+            var existing = products.First(p => p.ID == product.ID);
+            existing.Name = product.Name;
+            existing.Price = product.Price;
+        }
+
+        product = new();
+    }
+
+    void EditProduct(Product p)
+    {
+        product = new Product
+        {
+            ID = p.ID,
+            Name = p.Name,
+            Price = p.Price
+        };
+    }
+
+    async Task DeleteProduct(int id)
+    {
+        await client.DeleteAsync($"api/products/{id}");
+        products.RemoveAll(p => p.ID == id);
+    }
+
+    public class Product
+    {
+        public int ID { get; set; }
+        public string Name { get; set; } = "";
+        public decimal Price { get; set; }
+    }
+}
