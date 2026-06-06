@@ -11,8 +11,8 @@
       "name": "API",
       "type": "coreclr",
       "request": "launch",
-      "program": "${workspaceFolder}/API/bin/Debug/net8.0/API.dll",
-      "cwd": "${workspaceFolder}/API",
+      "program": "${workspaceFolder}/CatalogService.API/bin/Debug/net8.0/CatalogService.API.dll",
+      "cwd": "${workspaceFolder}/CatalogService.API",
       "env": {
         "ASPNETCORE_URLS": "http://localhost:5240"
       }

@@ -133,24 +133,34 @@
         }
         else
         {
-            await client.PutAsJsonAsync($"api/products/{product.ID}", product);
+            var res =await client.PutAsJsonAsync($"api/products/{product.ID}", product);
 
-            var existing = products.First(p => p.ID == product.ID);
-            existing.Name = product.Name;
-            existing.Price = product.Price;
+            if(res.IsSuccessStatusCode){
+                var existing = products.First(p => p.ID == product.ID);
+                existing.Name = product.Name;
+                existing.Price = product.Price;
+            }
         }
 
         product = new();
     }
 
-    void EditProduct(Product p)
+    async Task EditProduct(Product p)
     {
+        var res = await client.PutAsJsonAsync($"api/products/{product.ID}", product);
+
+        if(res.IsSuccessStatusCode){
+            var existing = products.First(p => p.ID == product.ID);
+            existing.Name = product.Name;
+            existing.Price = product.Price;
+        }
         product = new Product
         {
             ID = p.ID,
             Name = p.Name,
             Price = p.Price
         };
+
     }
 
     async Task DeleteProduct(int id)
