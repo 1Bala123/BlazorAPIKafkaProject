@@ -1,0 +1,373 @@
+2026-06-06 20:19:13.911 +05:30 [INF] Serilog test message
+2026-06-06 20:19:30.852 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 20:22:17.375 +05:30 [INF] Serilog test message
+2026-06-06 20:22:18.164 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 20:26:31.059 +05:30 [INF] Serilog test message
+2026-06-06 20:26:32.325 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 20:27:09.915 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-06-06 20:27:11.339 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:27:11.529 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:27:11.652 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1797.3945 ms
+2026-06-06 20:27:18.201 +05:30 [INF] HTTP GET /api/products responded 200 in 5954.7415 ms
+2026-06-06 20:33:20.382 +05:30 [INF] Serilog test message
+2026-06-06 20:33:21.751 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 20:34:00.502 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-06-06 20:34:01.167 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:34:01.257 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:34:01.383 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1065.9602 ms
+2026-06-06 20:34:04.776 +05:30 [INF] HTTP GET /api/products responded 200 in 2893.5025 ms
+2026-06-06 20:34:19.056 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:34:19.058 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:34:19.060 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 18.2977 ms
+2026-06-06 20:34:19.577 +05:30 [INF] HTTP GET /api/products responded 200 in 365.3829 ms
+2026-06-06 20:35:23.890 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:35:23.955 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:35:23.983 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 94.1211 ms
+2026-06-06 20:36:57.196 +05:30 [INF] Add Products 0
+2026-06-06 20:40:27.021 +05:30 [INF] Serilog test message
+2026-06-06 20:40:28.293 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 20:41:15.803 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-06-06 20:41:16.464 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:41:16.572 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:41:16.770 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1146.1041 ms
+2026-06-06 20:41:19.910 +05:30 [INF] HTTP GET /api/products responded 200 in 2679.2703 ms
+2026-06-06 20:41:25.115 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:41:25.119 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:41:25.123 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 25.5734 ms
+2026-06-06 20:41:25.740 +05:30 [INF] HTTP GET /api/products responded 200 in 404.7398 ms
+2026-06-06 20:41:47.620 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 20:41:47.621 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 20:41:47.622 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 3.1417 ms
+2026-06-06 20:57:05.646 +05:30 [INF] Add Products 0
+2026-06-06 21:08:48.097 +05:30 [INF] Serilog test message
+2026-06-06 21:08:49.684 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:08:54.033 +05:30 [ERR] Failed executing DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "o"."Id", "o"."CreatedDate", "o"."EventType", "o"."Payload", "o"."Processed"
+FROM "OutboxMessages" AS "o"
+WHERE NOT ("o"."Processed")
+2026-06-06 21:08:54.142 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'CatalogService.Infrastructure.Persistence.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-06-06 21:08:54.262 +05:30 [ERR] BackgroundService failed
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at OutboxPublisherWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/OutBox/OutboxPublisherWorker.cs:line 39
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2026-06-06 21:08:54.304 +05:30 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at OutboxPublisherWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/OutBox/OutboxPublisherWorker.cs:line 39
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2026-06-06 21:08:54.481 +05:30 [ERR] Error processing Kafka message
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:13:15.157 +05:30 [INF] Serilog test message
+2026-06-06 21:13:16.173 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:13:22.136 +05:30 [ERR] Failed executing DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "o"."Id", "o"."CreatedDate", "o"."EventType", "o"."Payload", "o"."Processed"
+FROM "OutboxMessages" AS "o"
+WHERE NOT ("o"."Processed")
+2026-06-06 21:13:22.306 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'CatalogService.Infrastructure.Persistence.AppDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-06-06 21:13:22.346 +05:30 [ERR] BackgroundService failed
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at OutboxPublisherWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/OutBox/OutboxPublisherWorker.cs:line 39
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2026-06-06 21:13:22.368 +05:30 [FTL] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: OutboxMessages'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at OutboxPublisherWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/OutBox/OutboxPublisherWorker.cs:line 39
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+2026-06-06 21:13:22.557 +05:30 [ERR] Error processing Kafka message
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:23:55.673 +05:30 [INF] Serilog test message
+2026-06-06 21:23:56.498 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:24:48.020 +05:30 [INF] Serilog test message
+2026-06-06 21:24:49.586 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:24:51.220 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5240: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-06 21:25:28.541 +05:30 [INF] Serilog test message
+2026-06-06 21:25:29.488 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:25:30.776 +05:30 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5240: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-06 21:27:27.867 +05:30 [INF] Serilog test message
+2026-06-06 21:27:29.323 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:29:02.363 +05:30 [INF] Serilog test message
+2026-06-06 21:29:05.661 +05:30 [INF] Kafka consumer starte2026-06-06 21:29:05.779 +05:30 [I2026-06-06 21:29:27.004 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-06-06 21:29:27.394 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-06-06 21:29:12.439 +05:30 [ERR] Error processing Kafka message
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:36:48.049 +05:30 [INF] Serilog test message
+2026-06-06 21:36:49.556 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:38:39.358 +05:30 [INF] Serilog test message
+2026-06-06 21:38:40.629 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 21:39:24.111 +05:30 [WRN] Failed to determine the https port for redirect.
+2026-06-06 21:39:24.523 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-06-06 21:39:36.666 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:39:36.947 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:39:37.375 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 13339.6901 ms
+2026-06-06 21:42:55.319 +05:30 [INF] HTTP GET /api/products responded 200 in 196008.2831 ms
+2026-06-06 21:43:01.789 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:43:01.817 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:43:01.825 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 71.2046 ms
+2026-06-06 21:43:38.512 +05:30 [INF] HTTP GET /api/products responded 200 in 36490.5928 ms
+2026-06-06 21:43:40.616 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: inventory-created: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:43:40.754 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: notification-send: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:43:40.785 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: product-created: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:43:40.822 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: product-deleted: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:43:40.863 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: product-updated: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 21:46:27.787 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:46:28.572 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:46:28.787 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1180.9929 ms
+2026-06-06 21:48:03.895 +05:30 [INF] HTTP GET /api/products responded 200 in 94513.6078 ms
+2026-06-06 21:54:42.230 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:54:42.400 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:54:42.465 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 276.7148 ms
+2026-06-06 21:54:42.483 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:54:42.485 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:54:42.488 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 5.3800 ms
+2026-06-06 21:54:42.496 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:54:42.499 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:54:42.501 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 5.0420 ms
+2026-06-06 21:55:17.561 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:55:17.565 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:55:17.574 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 13.0926 ms
+2026-06-06 21:55:24.225 +05:30 [INF] Product created and outbox message queued.
+2026-06-06 21:55:24.386 +05:30 [INF] HTTP POST /api/products responded 201 in 6618.2498 ms
+2026-06-06 21:55:29.576 +05:30 [INF] Published product-created event: {"OccurredOn":"2026-06-06T16:25:23.4004301Z"}
+2026-06-06 21:55:39.284 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:55:39.285 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:55:39.287 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 3.5788 ms
+2026-06-06 21:55:47.336 +05:30 [INF] HTTP GET /api/products responded 200 in 7862.3960 ms
+2026-06-06 21:55:59.797 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:55:59.799 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:55:59.800 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 2.9978 ms
+2026-06-06 21:56:05.585 +05:30 [INF] HTTP GET /api/products responded 200 in 5613.5593 ms
+2026-06-06 21:56:38.039 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:56:38.041 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:56:38.041 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 2.4886 ms
+2026-06-06 21:57:06.757 +05:30 [INF] HTTP GET /api/products responded 200 in 28683.5647 ms
+2026-06-06 21:57:13.194 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:57:13.195 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:57:13.195 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1.0968 ms
+2026-06-06 21:57:17.386 +05:30 [INF] HTTP GET /api/products responded 200 in 4007.4968 ms
+2026-06-06 21:57:35.761 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:57:35.762 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:57:35.767 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 6.1034 ms
+2026-06-06 21:57:41.300 +05:30 [INF] HTTP GET /api/products responded 200 in 5479.9439 ms
+2026-06-06 21:57:48.897 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:57:48.898 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:57:48.898 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 1.1840 ms
+2026-06-06 21:58:03.233 +05:30 [INF] HTTP GET /api/products responded 200 in 14229.9305 ms
+2026-06-06 21:59:29.307 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 21:59:29.329 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 21:59:29.330 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 23.3957 ms
+2026-06-06 22:01:38.818 +05:30 [INF] Product created and outbox message queued.
+2026-06-06 22:01:38.882 +05:30 [INF] HTTP POST /api/products responded 201 in 129482.6146 ms
+2026-06-06 22:02:16.244 +05:30 [INF] Published product-created event: {"OccurredOn":"2026-06-06T16:29:38.130601Z"}
+2026-06-06 22:19:38.384 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 22:19:38.517 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 22:19:38.571 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 228.8839 ms
+2026-06-06 22:20:05.758 +05:30 [INF] Product created and outbox message queued.
+2026-06-06 22:20:05.796 +05:30 [INF] HTTP POST /api/products responded 201 in 27023.8124 ms
+2026-06-06 22:20:08.012 +05:30 [INF] Published product-created event: {"OccurredOn":"2026-06-06T16:50:02.931011Z"}
+2026-06-06 22:20:27.829 +05:30 [INF] GenerateAPIValidationToken Begins
+2026-06-06 22:20:27.842 +05:30 [INF] GenerateAPIValidationToken Ends
+2026-06-06 22:20:27.847 +05:30 [INF] HTTP POST /api/products/GenerateAPIValidationToken responded 200 in 18.4926 ms
+2026-06-06 22:22:13.636 +05:30 [INF] Product created and outbox message queued.
+2026-06-06 22:22:13.638 +05:30 [INF] HTTP POST /api/products responded 201 in 105684.3279 ms
+2026-06-06 22:22:13.841 +05:30 [INF] Published product-created event: {"OccurredOn":"2026-06-06T16:50:57.57445Z"}
+2026-06-06 22:29:29.601 +05:30 [INF] Serilog test message
+2026-06-06 22:29:30.671 +05:30 [INF] Kafka consumer started, subscribed to product-created

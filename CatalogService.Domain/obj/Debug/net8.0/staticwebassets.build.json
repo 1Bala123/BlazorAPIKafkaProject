@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IPLfr0wreDJmbMaccbJBIN3iHILRTvUdwDeMh6kkAb0=",
+  "Source": "CatalogService.Domain",
+  "BasePath": "_content/CatalogService.Domain",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
