@@ -25,6 +25,9 @@ public class TokenService
         if (DateTime.UtcNow >= _expiry)
         {
             var refreshResponse = await _httpClient.PostAsync("api/products/GenerateAPIValidationToken", null);
+
+            refreshResponse.EnsureSuccessStatusCode();
+            
             var result = await refreshResponse.Content.ReadFromJsonAsync<AuthResponse>();
             _token = result.Token;
             _expiry = result.Expiry;

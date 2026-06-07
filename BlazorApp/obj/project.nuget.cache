@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "X7G6EiRUCoo=",
+  "dgSpecHash": "MhseapwK/5A=",
   "success": true,
   "projectFilePath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
-=======
-  "dgSpecHash": "TalSZLV30Hw=",
-  "success": true,
-  "projectFilePath": "/home/bala/BlazorApp1/BlazorApp/BlazorApp.csproj",
->>>>>>> ad1a258 (Initial commit -ASP .NET Project Blazor cum Web API)
   "expectedPackageFiles": [
     "/home/bala/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -29,11 +23,15 @@
     "/home/bala/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "/home/bala/.nuget/packages/microsoft.extensions.http/2.1.0/microsoft.extensions.http.2.1.0.nupkg.sha512",
+    "/home/bala/.nuget/packages/microsoft.extensions.http.polly/2.1.0/microsoft.extensions.http.polly.2.1.0.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/bala/.nuget/packages/polly/6.0.1/polly.6.0.1.nupkg.sha512",
+    "/home/bala/.nuget/packages/polly.extensions.http/2.0.1/polly.extensions.http.2.0.1.nupkg.sha512",
     "/home/bala/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/home/bala/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
@@ -50,5 +48,16 @@
     "/home/bala/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
     "/home/bala/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BlazorApp depends on Microsoft.Extensions.Http.Polly (>= 0.0.8) but Microsoft.Extensions.Http.Polly 0.0.8 was not found. An approximate best match of Microsoft.Extensions.Http.Polly 2.1.0 was resolved.",
+      "libraryId": "Microsoft.Extensions.Http.Polly",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

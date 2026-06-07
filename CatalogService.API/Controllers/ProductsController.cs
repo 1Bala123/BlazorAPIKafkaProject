@@ -7,6 +7,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using Serilog;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace CatalogService.API.Controllers
@@ -25,6 +26,7 @@ namespace CatalogService.API.Controllers
             _configuration = configuration;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetProducts()
         {

@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
 using CatalogService.Infrastructure.Persistence;
+using Serilog;
 
 public class OutboxPublisherWorker : BackgroundService
 {
@@ -31,31 +32,43 @@ public class OutboxPublisherWorker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        while (!stoppingToken.IsCancellationRequested)
+        try
         {
-            using var scope = _scopeFactory.CreateScope();
-            var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-
-            var pending = await db.OutboxMessages
-                .Where(m => !m.Processed)
-                .ToListAsync(stoppingToken);
-
-            foreach (var msg in pending)
+            while (!stoppingToken.IsCancellationRequested)
             {
-                await _producer.ProduceAsync(msg.EventType, new Message<string, string>
-                {
-                    Key = Guid.NewGuid().ToString(),
-                    Value = msg.Payload
-                }, stoppingToken);
+                using var scope = _scopeFactory.CreateScope();
+                var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
-                msg.Processed = true;
-                _logger.LogInformation("Published {Topic} event: {Payload}", msg.EventType, msg.Payload);
+                var pending = await db.OutboxMessages
+                    .Where(m => !m.Processed)
+                    .ToListAsync(stoppingToken);
+
+                foreach (var msg in pending)
+                {
+                    await _producer.ProduceAsync(msg.EventType, new Message<string, string>
+                    {
+                        Key = Guid.NewGuid().ToString(),
+                        Value = msg.Payload
+                    }, stoppingToken);
+
+                    msg.Processed = true;
+                    Log.Information("Published {Topic} event: {Payload}", msg.EventType, msg.Payload);
+                }
+
+                await db.SaveChangesAsync(stoppingToken);
+
+                // Wait 5 seconds before next batch
+                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
             }
 
-            await db.SaveChangesAsync(stoppingToken);
-
-            // Wait 5 seconds before next batch
-            await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
+        }
+        catch(ProduceException<string, string> ex)
+        {
+            Log.Error(ex, "Kafka produce failed");
+        }
+        catch (Exception e)
+        {
+            Log.Fatal(e, "Unhandled exception in OutboxPublisherWorker");
         }
     }
 }

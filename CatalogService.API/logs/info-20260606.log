@@ -371,3 +371,23 @@ Confluent.Kafka.ConsumeException: Subscribed topic not available: product-update
 2026-06-06 22:22:13.841 +05:30 [INF] Published product-created event: {"OccurredOn":"2026-06-06T16:50:57.57445Z"}
 2026-06-06 22:29:29.601 +05:30 [INF] Serilog test message
 2026-06-06 22:29:30.671 +05:30 [INF] Kafka consumer started, subscribed to product-created
+2026-06-06 22:49:06.013 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: inventory-created: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 22:49:51.965 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: notification-send: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 22:49:53.817 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: product-deleted: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54
+2026-06-06 22:49:56.304 +05:30 [ERR] Error processing Kafka message
+Confluent.Kafka.ConsumeException: Subscribed topic not available: product-updated: Broker: Unknown topic or partition
+   at Confluent.Kafka.Consumer`2.Consume(Int32 millisecondsTimeout)
+   at Confluent.Kafka.Consumer`2.Consume(CancellationToken cancellationToken)
+   at KafkaConsumerWorker.ExecuteAsync(CancellationToken stoppingToken) in /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/Kafka/KafcaConsumer.cs:line 54

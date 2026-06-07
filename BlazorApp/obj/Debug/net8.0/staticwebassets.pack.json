@@ -1,7 +1,6 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
       "Id": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
       "PackagePath": "staticwebassets/BlazorApp.bundle.scp.css"
     },
@@ -19,25 +18,6 @@
     },
     {
       "Id": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/favicon.png",
-=======
-      "Id": "/home/bala/BlazorApp1/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
-      "PackagePath": "staticwebassets/BlazorApp.bundle.scp.css"
-    },
-    {
-      "Id": "/home/bala/BlazorApp1/BlazorApp/wwwroot/app.css",
-      "PackagePath": "staticwebassets/app.css"
-    },
-    {
-      "Id": "/home/bala/BlazorApp1/BlazorApp/wwwroot/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
-    },
-    {
-      "Id": "/home/bala/BlazorApp1/BlazorApp/wwwroot/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
-    },
-    {
-      "Id": "/home/bala/BlazorApp1/BlazorApp/wwwroot/favicon.png",
->>>>>>> ad1a258 (Initial commit -ASP .NET Project Blazor cum Web API)
       "PackagePath": "staticwebassets/favicon.png"
     },
     {

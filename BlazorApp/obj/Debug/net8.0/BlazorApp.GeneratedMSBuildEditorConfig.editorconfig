@@ -9,17 +9,12 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-<<<<<<< HEAD
 build_property.ProjectDir = /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/
-=======
-build_property.ProjectDir = /home/bala/BlazorApp1/BlazorApp/
->>>>>>> ad1a258 (Initial commit -ASP .NET Project Blazor cum Web API)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp
 build_property._RazorSourceGeneratorDebug = 
 
@@ -60,47 +55,5 @@ build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91
 build_metadata.AdditionalFiles.CssScope = b-fekawvbbds
 
 [/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/Components/Layout/NavMenu.razor]
-=======
-build_property.MSBuildProjectDirectory = /home/bala/BlazorApp1/BlazorApp
-build_property._RazorSourceGeneratorDebug = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Pages/Products.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9kdWN0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-fekawvbbds
-
-[/home/bala/BlazorApp1/BlazorApp/Components/Layout/NavMenu.razor]
->>>>>>> ad1a258 (Initial commit -ASP .NET Project Blazor cum Web API)
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zswk0q6kaa

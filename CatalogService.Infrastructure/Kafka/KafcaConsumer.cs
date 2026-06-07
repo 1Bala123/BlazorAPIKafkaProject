@@ -99,17 +99,24 @@ public class KafkaConsumerWorker : BackgroundService
 
                     // commit offset only after successful DB save
                     consumer.Commit(cr);
+
+                    await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
+                }
+                catch(ConsumeException e)
+                {
+                    Log.Error(e, "Kafka Consume failed");
                 }
                 catch (Exception ex)
                 {
                     Log.Error(ex, "Error processing Kafka message");
                     // optional: add retry/backoff logic here
                 }
+                
             }
         }
-        catch (OperationCanceledException)
+        catch (OperationCanceledException es)
         {
-            Log.Information("Kafka consumer stopping...");
+            Log.Information(es ,"Kafka consumer stopping...");
         }
         finally
         {

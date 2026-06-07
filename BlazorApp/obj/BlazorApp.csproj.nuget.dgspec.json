@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/BlazorApp.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
         "packagesPath": "/home/bala/.nuget/packages/",
         "outputPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/",
-=======
-    "/home/bala/BlazorApp1/BlazorApp/BlazorApp.csproj": {}
-  },
-  "projects": {
-    "/home/bala/BlazorApp1/BlazorApp/BlazorApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/bala/BlazorApp1/BlazorApp/BlazorApp.csproj",
-        "projectName": "BlazorApp",
-        "projectPath": "/home/bala/BlazorApp1/BlazorApp/BlazorApp.csproj",
-        "packagesPath": "/home/bala/.nuget/packages/",
-        "outputPath": "/home/bala/BlazorApp1/BlazorApp/obj/",
->>>>>>> ad1a258 (Initial commit -ASP .NET Project Blazor cum Web API)
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bala/.nuget/NuGet/NuGet.Config"
@@ -62,6 +48,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.7, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[0.0.8, )"
             }
           },
           "imports": [
