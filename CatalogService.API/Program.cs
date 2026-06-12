@@ -10,6 +10,7 @@ using CatalogService.Domain.Repositories;
 using CatalogService.Infrastructure.Outbox;
 using CatalogService.Infrastructure.Kafka;
 using CatalogService.Application.Commands;
+using CatalogService.Infrastructure.Rediscache;
 using MediatR;
 
 
@@ -24,8 +25,18 @@ builder.Host.UseSerilog((ctx, lc) => lc
 
 builder.Services.AddControllers();
 
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("RedisConnection");
+    options.InstanceName = "CatalogService:";
+});
+
 builder.Services.AddSingleton<IKafkaProducer,
                               KafkaProducer>();
+builder.Services.AddScoped<ICacheService,
+                          CacheService>();
 
 builder.Services.AddHostedService<KafkaConsumerWorker>();
 
@@ -37,6 +48,9 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 // Kafka settings
 builder.Services.Configure<KafkaSettings>(builder.Configuration.GetSection("Kafka"));
+
+builder.Services.Configure<RedisCacheSettings>(
+    builder.Configuration.GetSection("RedisCacheSettings"));
 
 // Outbox worker
 builder.Services.AddHostedService<OutboxPublisherWorker>();

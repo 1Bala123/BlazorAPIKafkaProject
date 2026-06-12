@@ -2356,11 +2356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
+      "projectUniqueName": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
+      "projectPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/BlazorApp.csproj",
       "packagesPath": "/home/bala/.nuget/packages/",
-      "outputPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/",
+      "outputPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/bala/.nuget/NuGet/NuGet.Config"

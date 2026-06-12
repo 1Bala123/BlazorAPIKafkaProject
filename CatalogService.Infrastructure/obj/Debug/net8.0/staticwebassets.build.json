@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "8qF1LhC0jRgsXrOs3EOyNGxIoFsWIK++K3a9JZj0AX0=",
+  "Hash": "PETyDbLLMmlsstfnmj950zvTne9691OUiPmwiH3a4o8=",
   "Source": "CatalogService.Infrastructure",
   "BasePath": "_content/CatalogService.Infrastructure",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
       "Version": 2,
       "Source": "CatalogService.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

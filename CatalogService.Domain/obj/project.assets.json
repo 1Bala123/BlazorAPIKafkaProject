@@ -4469,11 +4469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+      "projectUniqueName": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
       "projectName": "CatalogService.Domain",
-      "projectPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+      "projectPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
       "packagesPath": "/home/bala/.nuget/packages/",
-      "outputPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/obj/",
+      "outputPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/bala/.nuget/NuGet/NuGet.Config"

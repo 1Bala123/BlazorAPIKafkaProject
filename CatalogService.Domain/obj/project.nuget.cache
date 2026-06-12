@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ac4kr/SmOpg=",
+  "dgSpecHash": "1UjMH+HRz1o=",
   "success": true,
-  "projectFilePath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+  "projectFilePath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
   "expectedPackageFiles": [
     "/home/bala/.nuget/packages/confluent.kafka/2.14.2/confluent.kafka.2.14.2.nupkg.sha512",
     "/home/bala/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",

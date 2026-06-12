@@ -1,5 +1,11 @@
 version: '3.8'
 services:
+
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
   kafka:
     image: confluentinc/cp-kafka:7.5.0
     container_name: kafka

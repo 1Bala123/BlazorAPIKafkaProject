@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "okNmhN28u1MGPwcnRmU8pkBoaUfGQnsESGV5ZJAZxPw=",
+  "Hash": "iZ84R63Afok41hWBcFHvLkjJ0Q0oNZN5o80SxjLXpwU=",
   "Source": "CatalogService.Application",
   "BasePath": "_content/CatalogService.Application",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
       "Version": 2,
       "Source": "CatalogService.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;Configuration;Platform;TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
       "Version": 2,
       "Source": "CatalogService.Infrastructure",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

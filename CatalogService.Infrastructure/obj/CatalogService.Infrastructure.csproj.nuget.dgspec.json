@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj": {}
+    "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj": {
+    "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+        "projectUniqueName": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
         "projectName": "CatalogService.Domain",
-        "projectPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
+        "projectPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj",
         "packagesPath": "/home/bala/.nuget/packages/",
-        "outputPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/obj/",
+        "outputPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bala/.nuget/NuGet/NuGet.Config"
@@ -135,14 +135,14 @@
         }
       }
     },
-    "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj": {
+    "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
+        "projectUniqueName": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
         "projectName": "CatalogService.Infrastructure",
-        "projectPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
+        "projectPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj",
         "packagesPath": "/home/bala/.nuget/packages/",
-        "outputPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/obj/",
+        "outputPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bala/.nuget/NuGet/NuGet.Config"
@@ -157,8 +157,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj": {
-                "projectPath": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj"
+              "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj": {
+                "projectPath": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Domain/CatalogService.Domain.csproj"
               }
             }
           }
@@ -209,6 +209,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[10.0.9, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",

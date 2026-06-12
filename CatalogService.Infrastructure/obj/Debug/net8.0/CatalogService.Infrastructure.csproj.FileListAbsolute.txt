@@ -24,3 +24,29 @@
 /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.pdb
 /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.genruntimeconfig.cache
 /home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/ref/CatalogService.Infrastructure.dll
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/bin/Debug/net8.0/CatalogService.Infrastructure.deps.json
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/bin/Debug/net8.0/CatalogService.Infrastructure.runtimeconfig.json
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/bin/Debug/net8.0/CatalogService.Infrastructure.dll
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/bin/Debug/net8.0/CatalogService.Infrastructure.pdb
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/bin/Debug/net8.0/CatalogService.Domain.dll
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/bin/Debug/net8.0/CatalogService.Domain.pdb
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.csproj.AssemblyReference.cache
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.AssemblyInfoInputs.cache
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.AssemblyInfo.cs
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.csproj.CoreCompileInputs.cache
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.sourcelink.json
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets.build.json
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets.development.json
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets/msbuild.CatalogService.Infrastructure.Microsoft.AspNetCore.StaticWebAssets.props
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets/msbuild.build.CatalogService.Infrastructure.props
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.CatalogService.Infrastructure.props
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.CatalogService.Infrastructure.props
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/staticwebassets.pack.json
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/scopedcss/bundle/CatalogService.Infrastructure.styles.css
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogS.D3B3D49F.Up2Date
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.dll
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/refint/CatalogService.Infrastructure.dll
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.pdb
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/CatalogService.Infrastructure.genruntimeconfig.cache
+/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/CatalogService.Infrastructure/obj/Debug/net8.0/ref/CatalogService.Infrastructure.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d14AzzZ6QAmWltXUKKVAmnOtO2rds2dkzIjzXH6scIc=",
+  "Hash": "umiMEAaAif/PIH3r4vx43ITK8gsGuEp3Iz1MATyptoA=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorApp/wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/bundle/BlazorApp.styles.css",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/bundle/BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/bundle/BlazorApp.styles.css"
+      "OriginalItemSpec": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/bundle/BlazorApp.styles.css"
     },
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/app.css",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/app.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/favicon.png",
+      "Identity": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/favicon.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/bala/Desktop/CEWIT Interview Preparations/Blazorapp/BlazorAPIProject/BlazorApp/wwwroot/",
+      "ContentRoot": "/home/bala/Desktop/BlazorProjectgit/BlazorAPIProject/BlazorApp/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
